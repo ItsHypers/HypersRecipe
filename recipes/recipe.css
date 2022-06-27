@@ -47,24 +47,70 @@ body, html {
 .col {
     flex:1;
   }
+#header{
+    position: relative; 
+    top: 100px; 
+}
+#header img
+{
+    position: absolute;
+    top:-30px;
+    left:-65px;
+}
 #back_arrow {
     position: relative;
 }
 #back_arrow img {
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
 }
 #cooking{
-    position: relative
-    
+    position: relative; 
+    top: 100px;
+    left: 60px;  
 }
 #cooking img
 {
     position: absolute;
-    top: 50px;
-    left: -5px;
+    top:-30px;
+    left:-65px;
 }
+#preparing{
+    position: relative; 
+    top: 120px;
+    left: 60px;  
+}
+#preparing img
+{
+    position: absolute;
+    top:-30px;
+    left:-65px;
+}
+#serving{
+    position: relative; 
+    top: 140px;
+    left: 60px;  
+}
+#serving img
+{
+    position: absolute;
+    top:-30px;
+    left:-65px;
+}
+#difficulty{
+    position: relative; 
+    top: 160px;
+    left: 60px;  
+}
+#difficulty img
+{
+    position: absolute;
+    top:-30px;
+    left:-65px;
+}
+
+
 img {
     max-width:100%;
 }
