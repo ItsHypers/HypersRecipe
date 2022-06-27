@@ -47,11 +47,24 @@ body, html {
 .col {
     flex:1;
   }
-#content {
+#back_arrow {
     position: relative;
 }
-#content img {
+#back_arrow img {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+#cooking{
+    position: relative
+    
+}
+#cooking img
+{
+    position: absolute;
+    top: 50px;
+    left: -5px;
+}
+img {
+    max-width:100%;
 }
